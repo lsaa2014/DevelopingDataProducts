@@ -1,6 +1,5 @@
 library(shiny)
-library(pgmm) 
-library(classifly)
+load("Project/data/olive.rda")
 olive <- olive[,-2]
 
 shinyUI(pageWithSidebar(

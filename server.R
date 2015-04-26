@@ -1,6 +1,5 @@
 library(shiny)
-library(pgmm) 
-library(classifly)
+load("Project/data/olive.rda")
 olive <- olive[,-2]
 
 palette(c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3",
